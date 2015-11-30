@@ -12,6 +12,7 @@
 
 ```sh
 wget https://raw.githubusercontent.com/rodolpheche/nginx-fcgiwrap-docker/master/sample/cgi-bin/hello.sh
+chmod u+x hello.sh
 docker run -d -v $PWD:/usr/share/nginx/html/cgi-bin -p 80:80 rodolpheche/nginx-fcgiwrap
 ```
 
