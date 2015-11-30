@@ -11,7 +11,7 @@
 ##### Launch a Hello World Nginx fcgiwrap container
 
 ```sh
-wget https://github.com/rodolpheche/nginx-fcgiwrap-docker/blob/master/sample/cgi-bin/hello.sh
+wget https://raw.githubusercontent.com/rodolpheche/nginx-fcgiwrap-docker/master/sample/cgi-bin/hello.sh
 docker run -d -v $PWD:/usr/share/nginx/html/cgi-bin -p 80:80 rodolpheche/nginx-fcgiwrap
 ```
 
